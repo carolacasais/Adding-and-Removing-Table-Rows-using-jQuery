@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Adding and Removing Table Rows using jQuery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button id="addRow" onclick="addRow()">Add Row</button>
+
+    <table id="myTable">
+        <thead>
+            <tr>
+                <th>Action</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Option</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <select>
+                        <option>Select</option>
+                        <option>Add</option>
+                        <option>Remove</option>
+                    </select>
+                </td>
+                <td>
+                    <input type="text" id="name" placeholder="Enter name">
+                </td>
+                <td>
+                    <select>
+                        <option>18-35</option>
+                        <option>36-60</option>
+                        <option>61+</option>
+                    </select>
+                </td>
+                <td>
+                    <button id="deleteRow" onclick="deleteRow()">Delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+</body>
+</html>
