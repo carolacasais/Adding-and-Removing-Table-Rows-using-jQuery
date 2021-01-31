@@ -1,2 +1,4 @@
-# Adding and Deleting Table Rows Using jQuery
+# Adding and Deleting Table Rows using jQuery
+
+## DOM manipulation with jQuery
 
